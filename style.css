@@ -1,0 +1,132 @@
+body {
+    font-family: sans-serif;
+    font-size: 15px; 
+    /* margin: 25px 15% 75px; */
+    /* width: 80%; */
+    text-align: justify;
+    line-height: 140%;
+  }
+  
+  p {
+    text-indent: 0px;
+    margin: 0px 30px 0px;
+  }
+  
+  #header {
+    float: left;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background: #003582;
+    color: #B4CDFF;
+    text-indent: 30px;
+    border-radius: 8px;
+  }
+  
+  #content {
+    position: absolute;
+    top: 150px;
+    margin-left: 5px;
+  }
+  
+  #navigation {
+    /* padding-bottom: 100px; */
+    width: 100%;
+    background: #003582;
+    position: absolute;
+    bottom: 0px;
+    text-indent: 0px;
+    border-radius: 8px;
+  }
+  
+  #navigation ul {
+    float: left;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    background: #B4CDFF;
+    border-radius: 8px;
+  }
+  
+  #navigation li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    background: #B4CDFF;
+    list-style: none;
+    border-radius: 8px;
+  }
+  
+  #navigation a {
+    float: left;
+    padding: 7px 20px;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #003852;
+    text-decoration: none;
+    background: #B4CDFF;
+    border: 1px solid #a6a69d;
+    /* border-radius: 8px; */
+  }
+  
+  #navigation a:hover {
+    background: #E0EBFF;
+  }
+  
+  /* Link styles */
+  a:link, a:visited, a:hover {
+    color: #2E5CE6;
+    text-decoration: none;
+  }
+  
+h1, h2 {
+  color: #2c3e50;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.organizers,  .contact {
+  list-style: none;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+.speakers {
+  /* list-style: none; */
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+.organizers li, .speakers li, .contact li {
+  margin-bottom: 5px;
+}
+
+.speakers li {
+  margin-left: 10px;
+}
+
+a:link, a:visited, a:hover {
+  color: #2E5CE6;
+  text-decoration: none;
+}
+
+/* Light grey boxes around sections */
+.section {
+  position: relative;
+  top: 0px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#publications {
+  width: 80%;
+}
+#interests {
+  width: 80%;
+}
+#publications li {
+  margin-bottom: 10px;
+}
