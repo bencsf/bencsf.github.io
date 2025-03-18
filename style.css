@@ -130,3 +130,13 @@ a:link, a:visited, a:hover {
 #publications li {
   margin-bottom: 10px;
 }
+
+/*tablazat behuzasa*/
+#schedule {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+/*tablazat cellak bal margoja*/
+#schedule td,th {
+  padding-left: 30px;
+}
